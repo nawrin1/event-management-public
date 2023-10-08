@@ -25,7 +25,7 @@ const Banner = () => {
     //     cssEase: "linear"
     //   };
     return (
-        <div className="max-w-6xl mx-auto h-[600px] relative">
+        <div className="max-w-6xl mx-auto h-[400px] lg:h-[600px] md:h-[600px] relative">
           {/* <Slider {...settings}>
             <div className="h-[270px] w-[350px] bg-black">
                 <img className="h-[270px] " src={image7} alt="" />
@@ -48,11 +48,11 @@ const Banner = () => {
 
 
           </Slider> */}
-          <img className="h-[600px] w-full"src={image8} alt="" />
+          <img className=" h-[400px] lg:h-[600px] md:h-[600px] w-full"src={image8} alt="" />
           <div className="absolute flex-col inset-0 bg-gradient-to-l from-transparent to-black text-center flex items-center place-content-center ">
-              <h2 className="text-6xl font-bold mb-5">T & G Event Management</h2>
+              <h2 className=" text-4xl lg:text-6xl md:text-6xl font-bold mb-5">T & G Event Management</h2>
               
-              <p className="text-4xl font-semibold">"Unlocking Tech & Gaming Spectacles"</p>
+              <p className="text-2xl lg:text-4xl md:text-4xl font-semibold">"Unlocking Tech & Gaming Spectacles"</p>
               
           </div>
       </div>

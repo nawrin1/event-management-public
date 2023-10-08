@@ -18,7 +18,7 @@ const Description = () => {
 
     console.log(data)
     if(data[0]){
-        const{title,details,description,price,image,service1,service2,service3}=data[0]
+        const{title,details,price,image,service1,service2,service3}=data[0]
         return(
             <div className="max-w-6xl mx-auto">
                 <div className="h-[500px] w-full relative">
@@ -34,14 +34,14 @@ const Description = () => {
 
 
                 </div>
-                <h2 className="text-center font-bold text-5xl mt-24 mb-14">Services We Provide</h2>
+                <h2 className="text-center font-bold text-5xl mt-28 text-blue-900 mb-20">Services We Provide</h2>
                 
                 
                 
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-center mb-24 place-items-center ">
-                    <div className="w-[300px] h-[250px] border-x-2 border-blue-400 rounded-3xl text-center pt-24 px-4 shadow-2xl shadow-gray-700"><p className="text-3xl font-bold text-blue-200">{service1}</p></div>
-                    <div className="w-[300px] h-[250px] border-x-2 border-blue-400 rounded-3xl text-center pt-24  shadow-2xl shadow-gray-700"><p className="text-3xl font-bold  text-blue-200">{service2}</p></div>
-                    <div className="w-[300px] h-[250px] border-x-2 border-blue-400 rounded-3xl text-center pt-24 shadow-2xl shadow-gray-700"><p className="text-3xl font-bold  text-blue-200">{service3}</p></div>
+                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 rounded-3xl text-center pt-24 px-4 shadow-2xl shadow-gray-700"><p className="text-3xl font-bold text-blue-200">{service1}</p></div>
+                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 rounded-3xl text-center pt-24  shadow-2xl shadow-gray-700"><p className="text-3xl font-bold  text-blue-200">{service2}</p></div>
+                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 rounded-3xl text-center pt-24 shadow-2xl shadow-gray-700"><p className="text-3xl font-bold  text-blue-200">{service3}</p></div>
                 </div>
                 
                 
