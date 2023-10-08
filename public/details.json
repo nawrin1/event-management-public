@@ -1,0 +1,185 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "title": "Wedding",
+        "description": "Experience a fairy-tale wedding with our expert event planning team.",
+        "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+        "price": 80,
+        "data": "Your wedding day should be nothing short of magical, and our event planning team specializes in creating fairy-tale weddings that exceed your expectations. With years of experience and meticulous attention to detail, we offer a complete wedding planning package that covers everything from venue selection to exquisite catering and captivating entertainment. We understand that your wedding is the ultimate expression of your love story, and our dedicated team is committed to crafting a truly unique and beautiful experience for you and your guests. When you choose us, you're not just selecting a wedding planner; you're choosing a partner to bring your dream wedding to life. Our unwavering commitment to excellence makes us the perfect choice for your once-in-a-lifetime celebration.",
+        "services": [
+          {
+            "service_id": 101,
+            "service_name": "Venue Selection",
+            "description": "Scenic venues for your dream wedding ceremony and reception."
+          },
+          {
+            "service_id": 102,
+            "service_name": "Catering",
+            "description": "Exquisite cuisine with customizable menus to suit your taste."
+          },
+          {
+            "service_id": 103,
+            "service_name": "Decorations",
+            "description": "Elegant and personalized decorations for a magical ambiance."
+          },
+          {
+            "service_id": 104,
+            "service_name": "Photography & Videography",
+            "description": "Capture every precious moment with our professional team."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Birthday",
+        "description": "Create lasting memories with our vibrant and exciting birthday parties.",
+        "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+        "price": 20,
+        "data": "Every birthday is a unique celebration, and our team specializes in creating vibrant and exciting birthday parties that leave a lasting impression. Whether it's a milestone birthday or a simple gathering of friends and family, we offer personalized birthday party planning services to match your preferences. From themed decorations that transport you to a world of wonder to captivating entertainment that keeps the party going, we bring your birthday vision to life. Our creativity and meticulous attention to detail ensure that every aspect of your birthday celebration is simply fantastic. Choose us for your birthday, and you'll not only have a fantastic party but also create cherished memories that will last a lifetime.",
+        "services": [
+          {
+            "service_id": 201,
+            "service_name": "Venue Selection",
+            "description": "Exciting venues for lively birthday celebrations."
+          },
+          {
+            "service_id": 202,
+            "service_name": "Entertainment",
+            "description": "A variety of entertainment options to keep the party alive."
+          },
+          {
+            "service_id": 203,
+            "service_name": "Cake and Desserts",
+            "description": "Customized cakes and delectable desserts that delight."
+          },
+          {
+            "service_id": 204,
+            "service_name": "Party Decorations",
+            "description": "Themed decorations, balloons, and party favors."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Baby Shower",
+        "description": "Celebrate the imminent arrival of your little one with warmth and joy.",
+        "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+        "price": 15,
+        "data": "Welcoming a new bundle of joy into the world is a cherished moment, and our baby shower theme is designed to fill it with warmth and joy. Our baby shower planning services include everything you need, from cozy venues that set the mood to delightful games that entertain your guests. We take care of every detail, allowing you to focus on creating beautiful memories. Our team's dedication to making the day special for expecting parents and their loved ones makes us the perfect choice for your baby shower. With us, you're not just planning an event; you're creating beautiful memories that you'll cherish forever.",
+        "services": [
+          {
+            "service_id": 301,
+            "service_name": "Venue Selection",
+            "description": "Cozy venues for a heartwarming baby shower celebration."
+          },
+          {
+            "service_id": 302,
+            "service_name": "Catering",
+            "description": "Light snacks and refreshments to satisfy your guests."
+          },
+          {
+            "service_id": 303,
+            "service_name": "Games and Activities",
+            "description": "Fun games and activities to create joyful moments."
+          },
+          {
+            "service_id": 304,
+            "service_name": "Decorations",
+            "description": "Adorable decorations to set a charming atmosphere."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Engagement",
+        "description": "Celebrate the start of a lifelong journey with an intimate engagement party.",
+        "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+        "price": 60,
+        "data": "An engagement is the beginning of a beautiful lifelong journey, and our engagement theme is designed to celebrate it with elegance and romance. We understand the importance of capturing the essence of love, and our engagement party planning services are designed to do just that. From romantic decor that sets the mood to enchanting music that serenades your guests, we create an atmosphere of pure romance. Our meticulous attention to detail and creative approach to engagements make us the perfect choice for couples looking to start their journey on a memorable note. When you choose us, you're not just planning a party; you're crafting a love story.",
+        "services": [
+          {
+            "service_id": 401,
+            "service_name": "Venue Selection",
+            "description": "Intimate venues for your engagement celebration."
+          },
+          {
+            "service_id": 402,
+            "service_name": "Catering",
+            "description": "Gourmet catering service to indulge your guests."
+          },
+          {
+            "service_id": 403,
+            "service_name": "Photography & Videography",
+            "description": "Capture the moments with professional photography."
+          },
+          {
+            "service_id": 404,
+            "service_name": "Live Music",
+            "description": "Live music performances to create a romantic atmosphere."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Retirement",
+        "description": "Bid farewell to a successful career and embrace the joys of retirement.",
+        "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+        "price": 30,
+        "data": "Retirement is a significant milestone, and our retirement party theme is all about honoring the years of hard work and dedication. We understand the importance of creating a heartfelt and memorable celebration for the retiree. Our retirement party planning services cover every detail, from elegant decorations to heartfelt speeches that celebrate the retiree's achievements. We create an atmosphere that reflects the retiree's personality and accomplishments, ensuring that they feel truly appreciated. With our reputation for creating meaningful retirement celebrations, we are the perfect choice for those looking to honor a retiree's journey.",
+        "services": [
+          {
+            "service_id": 501,
+            "service_name": "Venue Selection",
+            "description": "Spacious venues for a retirement celebration."
+          },
+          {
+            "service_id": 502,
+            "service_name": "Catering",
+            "description": "Delicious catering options to satisfy your guests."
+          },
+          {
+            "service_id": 503,
+            "service_name": "Retirement Speech",
+            "description": "Guest speakers to honor the retiree's career."
+          },
+          {
+            "service_id": 504,
+            "service_name": "Entertainment",
+            "description": "Entertainment options for a joyful celebration."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Anniversary",
+        "description": "Celebrate years of love and togetherness with a memorable anniversary event.",
+        "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+        "price": 30,
+        "data": "Anniversaries are a celebration of love and commitment, and our anniversary theme is designed to make each milestone truly special. We understand that no two love stories are the same, and that's why we offer personalized anniversary party planning services. From romantic decor that sets the mood to live music that serenades you and your guests, we create an atmosphere of love and nostalgia. Our attention to detail and ability to make each anniversary unique and special make us the perfect choice for couples marking another year of their journey together. When you choose us, you're not just planning a party; you're celebrating your love story.",
+        "services": [
+          {
+            "service_id": 601,
+            "service_name": "Venue Selection",
+            "description": "Romantic venues for your anniversary celebration."
+          },
+          {
+            "service_id": 602,
+            "service_name": "Catering",
+            "description": "Fine dining and catering services for an elegant experience."
+          },
+          {
+            "service_id": 603,
+            "service_name": "Live Music",
+            "description": "Live music performances to create a romantic ambiance."
+          },
+          {
+            "service_id": 604,
+            "service_name": "Decorations",
+            "description": "Decorations that set a romantic and nostalgic atmosphere."
+          }
+        ]
+      }
+    ]
+  }
+  

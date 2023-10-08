@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Wedding",
+      "description": "Celebrate the union of two hearts with our elegant wedding theme.",
+      "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+      "price": 90
+    },
+    {
+      "id": 2,
+      "title": "Birthday",
+      "description": "Make your birthday extra special with our fun and colorful birthday theme.",
+      "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "title": "Baby Shower",
+      "description": "Welcome the arrival of a new bundle of joy with our adorable baby shower theme.",
+      "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+      "price": 40
+    },
+    {
+      "id": 4,
+      "title": "Engagement",
+      "description": "Celebrate the beginning of a lifelong journey with our romantic engagement theme.",
+      "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+      "price": 60
+    },
+    {
+      "id": 5,
+      "title": "Retirement",
+      "description": "Honor a retiree's years of hard work with our retirement party theme.",
+      "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "title": "Anniversary",
+      "description": "Mark another year of love and commitment with our timeless anniversary theme.",
+      "image": "https://i.ibb.co/KNdZMXY/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg",
+      "price": 60
+    }
+  ]
