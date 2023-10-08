@@ -32,7 +32,7 @@ const Header = () => {
 
     }
     return (
-        <div className="navbar bg-base-100 max-w-6xl mx-auto">
+        <div className="navbar bg-black border-2 border-blue-400 text-white max-w-6xl mx-auto mb-6">
             <div className="navbar-start">
                 <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -42,7 +42,7 @@ const Header = () => {
                     {navlinks}
                 </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl">T & G Event Management</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

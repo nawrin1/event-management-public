@@ -9,7 +9,7 @@ import { Puff } from "react-loader-spinner";
 const Root = () => {
     const{loader}=useContext(AuthContext)
     return (
-        <div>
+        <div className="bg-black text-white">
             <Header></Header>
             
             {

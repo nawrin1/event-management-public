@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Services = ({service}) => {
     const {id,title,description,price,image}=service
     return (
-        <div className="rounded-[20px] bg-sky-200 flex flex-col">
+        <div className="rounded-[20px] bg-sky-200 flex flex-col text-blue-900 selection mb-16">
             <div className="rounded-t-[20px] flex-1/3">
                 <img className="rounded-t-[20px]" src={image} alt="" />
 
@@ -16,7 +16,7 @@ const Services = ({service}) => {
 
             </div>
             <div className="flex p-5 justify-between mt-auto flex-1/3">
-                <button className="btn btn-outline text-xl font-medium">Price:{price}k</button>
+                <button className="btn btn-outline text-xl font-medium">Price:{price}</button>
 
                 <Link to={`/description/${id}`}><button className="btn btn-outline text-xl font-medium">Details</button></Link>
             </div>
