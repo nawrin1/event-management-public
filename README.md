@@ -1,3 +1,6 @@
+# T&G Event
+# live link:https://social-event-assignment.web.app
+
 # Features
 - User can sign in using both email and google
 - Private Route is created and only registered user can see the private routes
