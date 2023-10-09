@@ -8,11 +8,11 @@ const Header = () => {
     const{user,logout}=useContext(AuthContext)
     const navigate=useNavigate()
     const navlinks=<>
-    <li><NavLink to='/'>Home</NavLink></li>
+    <li className="font-Kanit"><NavLink to='/'>Home</NavLink></li>
     {
         user && <>
-            <li><NavLink to='/features'>Features</NavLink></li>
-            <li><NavLink to='/about'>About Us</NavLink></li>
+            <li className="font-Kanit"><NavLink to='/features'>Features</NavLink></li>
+            <li className="font-Kanit"><NavLink to='/about'>About Us</NavLink></li>
         </>
     }
     </>
@@ -33,7 +33,7 @@ const Header = () => {
 
     }
     return (
-        <div className="navbar bg-black border-2 border-blue-400 text-white max-w-6xl mx-auto mb-6">
+        <div className="navbar bg-black border-2 border-blue-400 text-white max-w-6xl mx-auto mb-6 rounded-2xl flex-col lg:flex-row md:flex-row">
             <div className="navbar-start">
                 <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,26 +43,28 @@ const Header = () => {
                     {navlinks}
                 </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">T & G Event Management</a>
+                <a className="btn btn-ghost normal-case text-2xl font-Kanit ">T<span className="text-red-700 text-2xl">&</span>G Event </a>
             </div>
             <div className="navbar-center hidden lg:flex text-black lg:text-white">
                 <ul className="menu menu-horizontal px-1">
                     {navlinks}
                 </ul>
             </div>
-            <div className="navbar-end gap-3">
+            <div className="navbar-end gap-3 flex-col lg:flex-row md:flex-row">
                 {
-                    user? <><label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                    user? <><p>{`${user.displayName}`}</p>
+                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+
                     <div className="w-10 rounded-full">
-                        <img src="" />
+                        <img src={`${user.photoURL}`} />
                     </div>
                     </label>
-                    <Link to='/login'><button onClick={handleLogOut}>Logout</button></Link>
+                    <Link to='/login'><button onClick={handleLogOut} className="font-Kanit">Logout</button></Link>
 
                     </>:
                     <nav>
-                    <NavLink to='/login'><button className="p-4">Login</button></NavLink>
-                    <NavLink to='/register'><button className="p-4">Register</button></NavLink>
+                    <NavLink to='/login'><button className="p-4 font-Kanit">Login</button></NavLink>
+                    <NavLink to='/register'><button className="p-4 font-Kanit">Register</button></NavLink>
                     </nav>
                 }
                 

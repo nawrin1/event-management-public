@@ -30,7 +30,7 @@ const Description = () => {
                 <div className="p-6 mt-9">
                     <p className="font-bold text-3xl mb-8 text-blue-500 font-Kanit">EVENT OVERVIEW</p>
                     <hr className="w-[260px] mb-7"></hr>
-                    <p className="font-medium text-2xl font-Kanit">{details}</p>
+                    <p className="font-medium text-2xl font-Kanit text-justify">{details}</p>
 
 
                 </div>
@@ -39,9 +39,9 @@ const Description = () => {
                 
                 
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-center mb-24 place-items-center ">
-                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 rounded-3xl text-center pt-24 px-4 shadow-2xl shadow-gray-700"><p className="font-Kanit text-3xl font-bold text-blue-200">{service1}</p></div>
-                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 rounded-3xl text-center pt-24  shadow-2xl shadow-gray-700"><p className="font-Kanit text-3xl font-bold  text-blue-200">{service2}</p></div>
-                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 rounded-3xl text-center pt-24 shadow-2xl shadow-gray-700"><p className="font-Kanit text-3xl font-bold  text-blue-200">{service3}</p></div>
+                    <div className="w-[300px] h-[280px] border-x-2 hover:scale-125 border-blue-400 rounded-3xl text-center pt-24 px-4 shadow-2xl shadow-gray-700"><p className="font-Kanit text-3xl font-bold text-blue-200">{service1}</p></div>
+                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 hover:scale-125 rounded-3xl text-center pt-24  shadow-2xl shadow-gray-700"><p className="font-Kanit text-3xl font-bold  text-blue-200">{service2}</p></div>
+                    <div className="w-[300px] h-[280px] border-x-2 border-blue-400 hover:scale-125 rounded-3xl text-center pt-24 shadow-2xl shadow-gray-700"><p className="font-Kanit text-3xl font-bold  text-blue-200">{service3}</p></div>
                 </div>
                 
                 
@@ -49,12 +49,7 @@ const Description = () => {
             </div>
         )
     }
-    return (
-        <div>
-            this is description
-            
-        </div>
-    );
+
 };
 
 export default Description;

@@ -19,8 +19,8 @@ const Home = () => {
            
             <Banner></Banner>
             <div  className="max-w-6xl mx-auto mt-24">
-                <h2 className="text-center text-6xl font-semibold mb-20 font-Kanit">Our Services</h2>
-                <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 ">
+                <h2 className="text-center text-6xl font-semibold mb-20 font-Kanit mt-10">Our Services</h2>
+                <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 p-4">
                 {
                     data.map((service,idx)=><Services key={idx} service={service}></Services>)
                 }
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className="mb-10 ">
+            <div className="mb-40 ">
                 <h2 className="text-5xl font-bold text-center mb-3 mt-72 font-Kanit">Contact</h2>
                 <hr></hr>
                 <p className="text-xl font-semibold text-center mb-3 mt-8 font-Kanit text-lime-100">We're here to help you turn your tech and gaming event ideas into reality. Whether you have questions, need a quote, or want to discuss your upcoming event, don't hesitate to reach out to us. Our team of experts is eager to assist you every step of the way.

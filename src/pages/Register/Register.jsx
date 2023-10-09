@@ -9,7 +9,7 @@ import { updateProfile } from "firebase/auth";
 
 const Register = () => {
     const navigate=useNavigate()
-    const {createAccount}=useContext(AuthContext)
+    const {createAccount,user}=useContext(AuthContext)
     const handleRegister=e=>{
         e.preventDefault()
         const email=e.target.email.value
@@ -42,6 +42,11 @@ const Register = () => {
                     showConfirmButton: false,
                     timer: 1500
                 })
+                updateProfile(result.user,{
+                    displayName:name,
+                    photoURL:photo
+                })
+                console.log(result.user)
                 navigate('/login')
                 
     
@@ -66,25 +71,25 @@ const Register = () => {
                 <label className="label">
                     <span className="label-text">Email</span>
                 </label>
-                <input type="email" name="email" placeholder="email" className="input input-bordered" required />
+                <input type="email" name="email" placeholder="email" className="input input-bordered text-black" required />
                 </div>
                 <div className="form-control">
                 <label className="label">
                     <span className="label-text">Username</span>
                 </label>
-                <input type="text" name="name" placeholder="Your name" className="input input-bordered" required />
+                <input type="text" name="name" placeholder="Your name" className="input input-bordered text-black" required />
                 </div>
                 <div className="form-control">
                 <label className="label">
                     <span className="label-text">Photo URL</span>
                 </label>
-                <input type="text" name="photo" placeholder="Photo URL.." className="input input-bordered" required />
+                <input type="text" name="photo" placeholder="Photo URL.." className="input input-bordered text-black" required />
                 </div>
                 <div className="form-control">
                 <label className="label">
                     <span className="label-text">Password</span>
                 </label>
-                <input type="password" name="password" placeholder="password" className="input input-bordered" required />
+                <input type="password" name="password" placeholder="password" className="input input-bordered text-black" required />
                 <label className="label">
                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                 </label>

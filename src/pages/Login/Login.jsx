@@ -6,7 +6,7 @@ import Swal from 'sweetalert2'
 
 const Login = () => {
     const location=useLocation()
-    const{login}=useContext(AuthContext)
+    const{login,google}=useContext(AuthContext)
     const [error,setError]=useState('')
     const navigate=useNavigate()
     const handleLogin=e=>{
@@ -46,6 +46,31 @@ const Login = () => {
         })
 
     }
+    const handlegoole=()=>{
+        google()
+        .then(()=>{
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'You are logged in',
+                showConfirmButton: false,
+                timer: 1500
+            })
+            navigate('/')
+
+        })
+        .catch(error=>{
+            Swal.fire({
+                position: 'top-end',
+                icon: 'error',
+                title: 'Something went wrong',
+                showConfirmButton: false,
+                timer: 1500
+            })
+
+        })
+
+    }
     return (
     <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -71,10 +96,12 @@ const Login = () => {
                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                 </label>
                 </div>
-                <div className="form-control mt-6">
+                <div className="form-control mt-6 gap-4">
                 <button className="btn btn-primary">Login</button>
+                
                 </div>
                 </form>
+                <button onClick={handlegoole}className="btn btn-primary">Login with Google</button>
             </div>
             <p className="text-black text-center mb-8">Do no have an account?<Link to='/register' className="head text-blue-700">Register</Link></p>
             </div>
