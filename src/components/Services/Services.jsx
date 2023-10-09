@@ -10,15 +10,15 @@ const Services = ({service}) => {
 
             </div>
             <div className="px-5 pt-3 flex-1/3">
-                <h2 className="text-2xl mb-6 font-bold">{title}</h2>
-                <p className="text-[18px]">{description}</p>
+                <h2 className="text-2xl mb-6 font-bold font-Kanit">{title}</h2>
+                <p className="text-[18px] font-Kanit">{description}</p>
 
 
             </div>
             <div className="flex p-5 justify-between mt-auto flex-1/3">
-                <button className="btn btn-outline text-xl font-medium">Price:{price}</button>
+                <button className="btn btn-outline text-xl font-medium font-Kanit">Price:{price}</button>
 
-                <Link to={`/description/${id}`}><button className="btn btn-outline text-xl font-medium">Details</button></Link>
+                <Link to={`/description/${id}`}><button className="btn btn-outline text-xl font-medium font-Kanit">Details</button></Link>
             </div>
 
 

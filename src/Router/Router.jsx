@@ -11,6 +11,7 @@ import PrivateRoute from "../routes/PrivateRoute";
 import Features from "../pages/Features/Features";
 import Teams from "../pages/Teams/Teams";
 import Description from "../pages/Description/Description";
+import About from "../pages/About/About";
 
   const router=createBrowserRouter([
     {
@@ -32,12 +33,13 @@ import Description from "../pages/Description/Description";
               element:<Register></Register>
             },
             {path:'/features',
-            element:<PrivateRoute><Features></Features></PrivateRoute>
+            element:<PrivateRoute><Features></Features></PrivateRoute>,
+            // loader:()=>fetch('/features.json')
 
             },
             {
-              path:'/teams',
-              element:<PrivateRoute><Teams></Teams></PrivateRoute>
+              path:'/about',
+              element:<PrivateRoute><About></About></PrivateRoute>
             },
             {
               path:'/description/:id',

@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+  theme: {fontFamily:{'Kanit':['Kanit']},
     extend: {},
   },
   plugins: [require("daisyui")],

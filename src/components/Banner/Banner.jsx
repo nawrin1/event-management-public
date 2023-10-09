@@ -50,9 +50,9 @@ const Banner = () => {
           </Slider> */}
           <img className=" h-[400px] lg:h-[600px] md:h-[600px] w-full"src={image8} alt="" />
           <div className="absolute flex-col inset-0 bg-gradient-to-l from-transparent to-black text-center flex items-center place-content-center ">
-              <h2 className=" text-4xl lg:text-6xl md:text-6xl font-bold mb-5">T & G Event Management</h2>
+              <h2 className=" text-4xl lg:text-6xl md:text-6xl font-bold mb-5 font-Kanit">T & G Event Management</h2>
               
-              <p className="text-2xl lg:text-4xl md:text-4xl font-semibold">"Unlocking Tech & Gaming Spectacles"</p>
+              <p className="text-2xl lg:text-4xl md:text-4xl font-semibold font-Kanit">"Unlocking Tech & Gaming Spectacles"</p>
               
           </div>
       </div>

@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import Swal from 'sweetalert2'
@@ -7,6 +7,7 @@ import Swal from 'sweetalert2'
 const Login = () => {
     const location=useLocation()
     const{login}=useContext(AuthContext)
+    const [error,setError]=useState('')
     const navigate=useNavigate()
     const handleLogin=e=>{
         e.preventDefault()
@@ -31,7 +32,17 @@ const Login = () => {
             
         })
         .catch(error => {
-            console.error(error)
+            setError(error.message)
+            console.log(error)
+            Swal.fire({
+                position: 'top-end',
+                icon: 'error',
+                title: 'Invalid Email or Password',
+                showConfirmButton: false,
+                timer: 1500
+            })
+            navigate('/login')
+
         })
 
     }
@@ -65,7 +76,7 @@ const Login = () => {
                 </div>
                 </form>
             </div>
-            <p className="text-black text-center mb-8">Do no have an account?<Link to='/register' className="text-blue-700">Register</Link></p>
+            <p className="text-black text-center mb-8">Do no have an account?<Link to='/register' className="head text-blue-700">Register</Link></p>
             </div>
         </div>
     </div>
